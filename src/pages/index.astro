@@ -1,0 +1,24 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Card from '../components/Card.astro';
+import SignIn from '../components/SignIn';
+---
+
+<Layout title="from africa with love">
+	<main>
+		<a href="/"><span class="text-gradient text-xl">from africa with love</span></a>
+		<SignIn client:load />
+		<ul role="list" class="link-card-grid">
+			<Card
+				href="/recovery"
+				title="Account Recovery"
+				body="Need to reset your password?"
+			/>
+			<Card
+				href="/signup"
+				title="Sign Up"
+				body="Revolt with us. It's fast &amp; free."
+			/>
+		</ul>
+	</main>
+</Layout>
