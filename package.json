@@ -1,7 +1,7 @@
 {
   "name": "@fawlapp/fawl-id",
   "type": "module",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "private": true,
   "scripts": {
     "dev": "astro dev",
@@ -17,10 +17,10 @@
     "@types/react": "^18.0.27",
     "@types/react-dom": "^18.0.10",
     "astro": "^2.0.6",
+    "astro-icon": "^0.8.0",
     "js-cookie": "^3.0.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-icons": "^4.7.1",
     "tailwindcss": "^3.2.4"
   },
   "devDependencies": {

@@ -1,5 +1,4 @@
 import React from "react"
-import { FiArrowRight } from 'react-icons/fi'
 import { useState, useEffect } from 'react'
 import Cookies from 'js-cookie'
 
@@ -84,7 +83,7 @@ function SignIn() {
             <br/><br/>
             <input className="shadow appearance-none border rounded w-50 py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="password" type="password" placeholder="password" value={password} onChange={onPassChangeHandler}></input>
             <br />
-            <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded mr-5 my-7" type="submit"><FiArrowRight /></button>
+            <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded mr-5 my-7" type="submit">&#8594;</button>
         </form>
     </main>
   )
